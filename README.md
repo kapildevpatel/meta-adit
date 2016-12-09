@@ -10,6 +10,7 @@ The meta-adit contains recipes for
 
 #### How to add this layer to AGL build
 Add the meta-adit to the bblayer.conf file.
+
 Example: In build/conf/bblayer.conf add
 BBLAYERS =+ "\
     ${METADIR}/meta-renesas \
